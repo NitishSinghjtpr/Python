@@ -56,4 +56,32 @@
 # print(s.find("a"))
 # print(s.count("am"))
 
+###---Conditional Statements
+
+##-- if-elif-else
+
+# light = "yellow"
+
+# if light == "red":
+#      print("Stop") 
+     
+# elif light == "yellow":
+#      print("Look") 
+# elif light == "green":
+#      print("Go") 
+# else: print("Light is broken")
+
+# 2nd question
+
+# marks = int(input("Enter marks: "))
+
+# if marks >= 90:
+#      grade = "A" 
+# elif marks >= 80: 
+#     grade = "B" 
+# elif marks >= 70: 
+#     grade = "C" 
+# else: grade = "D" 
+# print("Grade:", grade)
+
 
