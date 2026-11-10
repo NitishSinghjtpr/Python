@@ -1,4 +1,4 @@
-#Q2. Write a program to find the greatest of 3 numbers entered by the user.
+#Q4. Write a program to find the greatest of 3 numbers entered by the user.
 
 a = int(input("Enter first number: ")) 
 b = int(input("Enter second number: ")) 
