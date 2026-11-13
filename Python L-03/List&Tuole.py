@@ -49,4 +49,30 @@
 # nums.pop(2)         #removes element at index 2  
 # print(nums)
 
+###--- Tuples ()
+# Tupples are similar to lists, but they are immutable, meaning that their elements cannot be changed after they are created. Tuples are defined using parentheses ().
+
+# tup=(1, 2, 3, 4, 5)
+# print(tup)
+# print(tup[0])
+# print(tup[1:3])
+# print(len(tup))
+
+# tup = (87, 64, 33, 95, 76) 
+# tup[0] = 43  #Error
+
+##-- Creating tuples:
+
+# tup1=() #empty tuple
+# tup2=(1,) #single element tuple
+# tup3=(1, 2, 3) #multiple element tuple
+
+##-- Tupple methods:
+
+#- tup.index(el)
+#- tup.count(el)
+
+# tup = (1, 2, 3, 4, 5, 1, 2)
+# print(tup.index(3))  # Output: 2
+# print(tup.count(2))  # Output: 2
 
