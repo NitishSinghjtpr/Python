@@ -60,5 +60,45 @@
 # print(student)
 
 
+###--- Set in Python
 
+# Sets are unordered collections of unique elements, written inside curly brackets{} 
+#Each element must be immutable (numbers, strings, tuples). Lists cannot be stored in a set.
+#Sets have no duplicate elements. If a duplicate is added, it will be ignored.
+# Sets have no indexing, meaning that you cannot access elements by their position in the set. Like nums[0] will give an error.
+
+# nums = {1, 2, 3, 4} 
+# set2 = {1, 2, 2, 2}     #repeated elements will be ignored 
+# print(nums) 
+# print(set2) 
+# print(len(set2))
+
+#-An empty set is created with set() . Writing set.{} will create an empty dictionary, not a set.
+
+# null_set = set() 
+# print(type(null_set)) # this one set
+# print(type({})) #this one dictionary
+
+##--set methods
+#- set.add(elem) - adds an element to the set.
+#- set.remove(elem) - removes an element from the set. Raises KeyError if the element is not found.
+#- set.discard(elem) - removes an element from the set if it is present.   
+# - set.pop() - removes and returns a random value. Raises KeyError if the set is empty.
+# - set.clear() - removes all elements from the set.
+# - set.union(set2) - returns a new set with all elements from both sets.
+# - set.intersection(set2) - returns a new set with only the elements that are 
+
+# nums = {1, 2, 3} 
+# nums.add(4) 
+# nums.add(2)     #already present, will be ignored   
+# print(nums) 
+# nums.remove(3) 
+# print(nums) 
+# nums.clear() 
+# print(nums)
+
+# set1 = {1, 2, 3} 
+# set2 = {2, 3, 4}  
+# print(set1.union(set2)) 
+# print(set1.intersection(set2)) #return only common element who present in both sets
 
