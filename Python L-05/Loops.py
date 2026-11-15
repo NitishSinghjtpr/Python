@@ -23,5 +23,54 @@
 #     print(count)
 #     count += 1
 
+##-- break and continue Statements
+# break: Exits the loop completely
+# continue: Skips the current iteration and moves to the next one
 
+#example of break statement
+
+# nums = [1, 2, 3, 4, 5]
+# x = 3
+# idx=0
+# while idx < len(nums):
+#     if nums[idx] == x:
+#         print("Number found at index:", idx)
+#         break
+#     idx += 1
+
+
+##example of continue statement
+
+# i = 0
+# while i < 5:
+#     i += 1
+#     if i == 3:
+#         continue
+#     print(i)
+
+##--For Loop
+# A for loop is used to iterate over a sequence (like a list, tuple, or string) and execute a block of code for each item in the sequence.
+
+#Syntax:
+# for item in sequence:
+#     # code to be executed
+
+#example of for loop
+
+# numbers = [1, 2, 3, 4, 5]
+# for num in numbers:
+#     print(num)
+
+#loop through a string
+
+# for ch in "python":
+#     print(ch)
+
+#For with else
+
+# numbers = [1, 2, 3, 4, 5]
+# for num in numbers:
+#     print(num)
+# else:
+#     print("Loop completed successfully")
 
