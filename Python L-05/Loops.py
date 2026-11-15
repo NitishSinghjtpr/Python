@@ -74,3 +74,19 @@
 # else:
 #     print("Loop completed successfully")
 
+## Range Function
+# The range() function generates a sequence of numbers. It is often used in for loops to specify the number of iterations.
+# range(start, stop, step)
+#Example 1 of range function
+
+# for i in range(5):  # Generates numbers from 0 to 4
+#     print(i)
+
+#Example 2
+# for el in range(1,5):
+#     print(el)
+
+#example 3
+# for el in range(1,10,2):
+#     print(el)
+
