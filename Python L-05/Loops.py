@@ -90,3 +90,11 @@
 # for el in range(1,10,2):
 #     print(el)
 
+##-- pass statement
+#pass is a null statement that does nothing. It is used as a placeholder for code you will write later, because Python does not allow an empty block
+#It is also commonly used in exception handling, which we will learn later.
+
+# for el in range(10): 
+#     pass        # to be written later 
+# print("Program continues")
+
