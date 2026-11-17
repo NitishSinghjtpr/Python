@@ -40,3 +40,25 @@
 # print(calc_product(5, 6)) 
 
 
+###--- Recursion
+#- Recursion is when a function calls itself repeatedly. Every recursive function needs a base case: a condition where it stops calling itself. Without it, the function would run forever (and Python stops it with a RecursionError ).
+
+#Q1. print n to 1
+
+# def show(n):
+#     if n==0: # base case
+#         return
+#     print(n)
+#     show(n-1) #function call itself
+
+# show(10)    
+
+#Q2. Factorial using Recursion
+
+# def fact(n):
+#     if n==0 or n==1:
+#         return 1
+#     else:
+#         return n*fact(n-1)
+# print(fact(5))
+
