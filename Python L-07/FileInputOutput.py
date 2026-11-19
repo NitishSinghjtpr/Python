@@ -20,9 +20,39 @@
 
 # f.close()
 ##write data
-f = open("file.txt", "w")
+# f = open("file.txt", "w")
 
-data = f.write("passage")
+# data = f.write("passage")
 
-print(data)
-f.close()
+# print(data)
+# f.close()
+
+#-Writing to a File
+
+# f = open("demo.txt", "w") 
+# f.write("this is a new line") 
+# f.close()
+
+# 'a' mode adds to the end of the file:
+
+# f = open("demo.txt", "a") 
+# f.write("\nthis line is added") 
+# f.close() 
+# f = open("demo.txt", "r") 
+# print(f.read()) 
+# f.close()
+
+#with Syntax
+
+#With 'with' Python close the file autometically when the block ends, so we don't need 'f.close'
+
+# with open("demo.txt", "r") as f: 
+#     data = f.read() 
+#     print(data)
+
+# with open("demo.txt", "w") as f: 
+#     f.write("new data")
+
+##--  Deleting a File
+
+
