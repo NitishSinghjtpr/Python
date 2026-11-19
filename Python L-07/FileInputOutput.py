@@ -55,4 +55,5 @@
 
 ##--  Deleting a File
 
-
+# import os 
+# os.remove("demo.txt")
