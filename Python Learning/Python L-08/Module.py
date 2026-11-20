@@ -40,7 +40,28 @@ import math
 
 # print(math.sqrt(4)) #ye check karta hai ki kiska ye square value hai if 16 then output 4
 
+#Random Module
+import random
+#random.randint(a,b) return a number between a and b  where a and b are include.
+# print(random.randint(5,20))
 
+#random.randrange(a,b) return a number between a and b but a include b not include.
+# print(random.randrange(5,10))
 
+#random.choice(l) where l is a list
 
+# l=["Nitish","dipu","amol","sonu"]
+# print(random.choice(l))
 
+#random.random() always return between 0-1
+# r=random.random()
+# print(r)
+
+#random.shuffle() rearrange the element and it always works on list 
+# l=[12,15,16,20,25]
+# random.shuffle(l)
+# print(l)
+
+#random.uniform(a,b) iska kaam hai ki a and b k bich ka koi v float value return karna 
+# u=random.uniform(5,10)
+# print(u)
